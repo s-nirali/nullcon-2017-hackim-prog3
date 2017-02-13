@@ -1,0 +1,7 @@
+total 120
+drwx------ 2 root     root     28672 Dec 23 21:01 apt-dpkg-install-kKBLWj
+-rw-r--r-- 1 root     root     71259 Dec 23 19:50 apt-fast.list
+-rw-r--r-- 1 root     root         0 Dec 23 19:50 apt-fast.lock
+-rw-r--r-- 1 root     root         0 Dec 23 21:03 secr
+drwx------ 3 root     root      4096 Dec 23 19:30 systemd-private-20af98806288452f91376e836938dc35-colord.service-hbUpEj
+drwx------ 3 root     flag      4096 Dec 23 19:30 63336C756448746861486C35634442684C565A686353467566513D3D 
