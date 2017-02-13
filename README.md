@@ -14,7 +14,7 @@ The NuFile archival format needed installation of 'nulib2' and 'nufxlib' which c
 
 Then I wrote the following python code to unarchive successively based on file type till an unarchived file was obtained.
 
-[GitHub](https://github.com/unique-nms/nullcon-2017-hackim-prog3/blob/master/p3.py)
+[Python Code](https://github.com/unique-nms/nullcon-2017-hackim-prog3/blob/master/p3.py)
 
 The final file obtained was an *ASCII text* file which looked like shown below:
 
