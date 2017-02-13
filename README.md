@@ -1,3 +1,5 @@
+## Programming Question 3 - HackIM NullCon 2017
+
 The given file is a repeatedly archived file in various formats. This can be found by successively running the 'file' UNIX command on it and unarchiving it based on the file command's output for the archive type.
 
 After manually running 'file' and unarchive commands based on the archival type of the file obtained for a few times, I made a list of all the archival types used, as follows:
@@ -12,13 +14,11 @@ The NuFile archival format needed installation of 'nulib2' and 'nufxlib' which c
 
 Then I wrote the following python code to unarchive successively based on file type till an unarchived file was obtained.
 
-```
-
-```
+[GitHub](https://github.com/unique-nms/nullcon-2017-hackim-prog3/blob/master/p3.py)
 
 The final file obtained was an *ASCII text* file which looked like shown below:
 
-<addr>
+```
 total 120
 drwx------ 2 root     root     28672 Dec 23 21:01 apt-dpkg-install-kKBLWj
 -rw-r--r-- 1 root     root     71259 Dec 23 19:50 apt-fast.list
@@ -26,7 +26,7 @@ drwx------ 2 root     root     28672 Dec 23 21:01 apt-dpkg-install-kKBLWj
 -rw-r--r-- 1 root     root         0 Dec 23 21:03 secr
 drwx------ 3 root     root      4096 Dec 23 19:30 systemd-private-20af98806288452f91376e836938dc35-colord.service-hbUpEj
 drwx------ 3 root     flag      4096 Dec 23 19:30 63336C756448746861486C35634442684C565A686353467566513D3D
-<addr>
+```
 
 Found flag string **63336C756448746861486C35634442684C565A686353467566513D3D**.
 
