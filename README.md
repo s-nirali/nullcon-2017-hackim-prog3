@@ -12,7 +12,7 @@ brew install unar
 
 The NuFile archival format needed installation of 'nulib2' and 'nufxlib' which can be downloaded and installed from here: http://www.nulib.com/
 
-Then I wrote the following python code to unarchive successively based on file type till an unarchived file was obtained.
+Then I wrote the following python code to unarchive successively based on file type till an unarchived file was obtained after 254 iterations.
 
 [Python Code](https://github.com/unique-nms/nullcon-2017-hackim-prog3/blob/master/p3.py)
 
